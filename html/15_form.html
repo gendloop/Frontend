@@ -22,7 +22,32 @@
 
     <!-- 单选按钮 -->
     <label>性别:</label>
-    <input type="radio" id="male" name="gender"
+    <input type="radio" id="male" name="gender" value="male" checked>
+    <label for="male">男</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">女</label>
+
+    <br/>
+
+    <!-- 复选框 -->
+    <input type="checkbox" id="subscribe" name="subscribe" checked>
+    <label for="subscribe">订阅</label>
+    <input type="checkbox" id="send" name="send" checked>
+    <label for="send">发送</label>
+
+    <br/>
+
+    <!-- 下拉列表 -->
+    <label for="country">国家</label>
+    <select id="country" name="country">
+      <option value="cn">CN</option>
+      <option value="uk">UK</option>
+    </select>
+
+    <br/>
+
+    <!-- 提交按钮 -->
+    <input type="submit" value="提交">
   </form>
 </body>
 
