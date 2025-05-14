@@ -1,0 +1,8 @@
+/* 通用样式 		base.css 		*/
+/* 布局样式 		layout.css 		*/
+/* 组件样式 		components.css 	*/
+/* 页面特定样式 	pages.css 		*/
+p {
+    color: red;
+    text-align: center;
+}
