@@ -1,16 +1,16 @@
 p {
-    color: red;
+  color: red;
 }
 
 /* id 选择器, "#" 前缀, 用于唯一元素 */
 #blue-text {
-    color: blue;
+  color: blue;
 }
 
 /* class 选择器, "." 前缀, 用于具有相同属性的一类元素 */
 .text-bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 .text-italic {
-    font-style: italic;
+  font-style: italic;
 }
