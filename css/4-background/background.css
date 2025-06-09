@@ -1,0 +1,7 @@
+body {
+  background-color: antiquewhite;
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
