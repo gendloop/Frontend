@@ -2,21 +2,29 @@
 <html lang="zh-cn">
 <head>
     <meta charset="UTF-8">
-    <title>导航栏示例</title>
+    <title>导航栏</title>
     <link rel="stylesheet" href="navigation.css">
 </head>
 <body>
-    <h1>导航栏示例</h1>
+    <h1>导航栏</h1>
     <nav class="navbar">
         <ul>
-            <li><a href="#home">首页</a></li>
-            <li><a href="#about">关于</a></li>
+            <li><a class="active" href="#home">首页</a></li>
+            <li><a href="#about">关于</a> </li>
             <li><a href="#services">服务</a></li>
             <li><a href="#contact">联系</a></li>
         </ul>
     </nav>
     <div class="content">
         <p>这里是内容区域。</p>
+    </div>
+    <div class="dropdown">
+        <button>下拉菜单</button>
+        <div class="dropdown-content">
+          <a href="#">链接1</a>
+          <a href="#">链接2</a>
+          <a href="#">链接3</a>
+        </div>
     </div>
 </body>
 </html>
